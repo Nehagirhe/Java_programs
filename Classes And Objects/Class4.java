@@ -7,11 +7,12 @@ double len,breadth;
 	{
 	len=l;
 	breadth=b;
+	
 	}
 	
 	double Area()
 	{
-	return len*breadth;
+		return len*breadth;
 	}
 	
 }
