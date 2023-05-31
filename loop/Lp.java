@@ -11,7 +11,7 @@ for(int i=1;i<=n;i++)
 {
 	System.out.print("Number is "+i);
 	System.out.print(" And Cube Of The "+i);
-	//int x=i*i*i;
+	
 	System.out.println(" Is : "+i*i*i);
 }
 
