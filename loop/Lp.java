@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Lp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc=new Scanner(System.in);
 System.out.println("Enter How Many Values To Calculate Cube :");
 int n=Integer.parseInt(sc.nextLine());
