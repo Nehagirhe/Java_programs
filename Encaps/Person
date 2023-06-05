@@ -1,2 +1,26 @@
 
+package pracprog;
+import java.util.Scanner;
+public class Person {
+
+	private int age;
+	public int getage()
+	{
+		return age;
+	}
+	public void setage(int age)
+	{
+		this.age=age;
+	}
 	
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);	
+Person p=new Person();
+System.out.println("Enter Your Age : ");
+int a=Integer.parseInt(sc.nextLine());
+p.setage(a);
+System.out.println("My Age Is : "+p.getage());
+	}
+
+}
+
