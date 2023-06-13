@@ -2,7 +2,8 @@ package neha;
 
 public class Test {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 	String s=new String("hello");        //2 memory heap/scp
 	String s1="hello";                   //1 memory scp
 	String s2="hello";                   //1 memory  scp
