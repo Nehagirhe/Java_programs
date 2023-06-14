@@ -1,1 +1,45 @@
+package abstraction;
+
+abstract class Bank{
+	abstract void getBAlance();
+}
+
+class BankA extends Bank{
+
+	@Override
+	void getBAlance() {
+	System.out.println("$100 deposited ");
+	}
+	
+}
+
+class BankB extends Bank{
+
+	@Override
+	void getBAlance() {
+	System.out.println("$150 deposited ");
+	}
+	
+}
+
+class BankC extends Bank{
+
+	@Override
+	void getBAlance() {
+	System.out.println("$200 deposited ");	
+	}
+	
+}
+public class BankTest {
+
+	public static void main(String[] args) {
+		BankA b1=new BankA();
+		b1.getBAlance();
+		BankB b2=new BankB();
+		b2.getBAlance();
+		BankC b3=new BankC();
+		b3.getBAlance();
+	}
+
+}
 
