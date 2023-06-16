@@ -27,8 +27,7 @@ public class AnimalsTest {
 	public static void main(String[] args) {
 	Cats A=new Cats();
 	A.Cats();
-	Dogs B=new Dogs();
-	B.dogs();
+	A.dogs();
 
 	}
 
