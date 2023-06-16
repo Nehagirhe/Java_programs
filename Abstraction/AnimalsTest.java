@@ -10,18 +10,16 @@ class Cats extends Animals{
 
 	@Override
 	void Cats() {
-		System.out.println("Cats Meow Meow");	
-	}
-	
-class Dogs extends Animals
-{
-	@Override
-	 dogs() {
-		System.out.println("Dogs Bhaoo Bhaooooo");	
-		return null;
+		System.out.println("Cats Meow Meow");
 	}
 
-}	
+	@Override
+	Void dogs() {
+	System.out.println("Dogs Bhaoo Bhaooo");
+	return null;
+	}
+
+	
 	
 }
 public class AnimalsTest {
