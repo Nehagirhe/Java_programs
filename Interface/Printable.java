@@ -1,11 +1,11 @@
 package Interface;
 
-interface print
+interface printable
 {  
 void print();
 }
 
-class A6 implements print
+class A6 implements printable
 {  
 public void print()
 {
