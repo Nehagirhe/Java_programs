@@ -9,6 +9,7 @@ public class Testencap {
 		
 		acc.setEmail("nehagirhe23@gmail.com");
 		acc.setAmount(25000f);
+		
 		System.out.println("Account Number :  "+acc.getAccno());
 	    System.out.println("Name : "+acc.getName());
 		System.out.println("Email : "+acc.getEmail());
