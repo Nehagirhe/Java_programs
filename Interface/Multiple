@@ -1,10 +1,12 @@
 package Interface;
 
-interface A {
+interface A 
+{
 void add();	
 }
 
-interface  B {
+interface  B
+{
 void sub();
 }
 
