@@ -1,1 +1,46 @@
+package collection;
 
+class Demo<R>
+{
+	
+	void fun(R a)
+	{
+		System.out.println("Data = "+a);
+	}
+		
+	void fun(float a)
+	{
+		System.out.println("Data = "+a);
+	}
+	void fun(double a)
+	{
+		System.out.println("Data = "+a);
+	}
+	void fun(String a)
+	{
+		System.out.println("Data = "+a);
+	}
+	
+	void fun(Test a)
+	{
+		System.out.println("Data = "+a);
+	}
+		
+}
+
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+     Demo d=new Demo();
+     
+     d.fun(22);
+     d.fun(22.5f);
+     d.fun(22.5);
+     d.fun("hi");
+     d.fun(new Test());
+     d.fun('X');
+	}
+
+}
