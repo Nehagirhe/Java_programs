@@ -4,26 +4,23 @@ interface A
 {
 void add();	
 }
-
 interface  B
 {
 void sub();
 }
-
 class C implements A,B
 {
 int a=20;
 int b=10;
-	@Override
-	public void sub() {
-	System.out.println("Substraction : "+(a-b));
-		
-	}
+@Override
+public void sub() {
+System.out.println("Substraction : "+(a-b));	
+}
 
-	@Override
-	public void add() {
-	System.out.println("Addition : "+a+b);	
-	}
+@Override
+public void add() {
+System.out.println("Addition : "+a+b);	
+}
 
 	
 }
