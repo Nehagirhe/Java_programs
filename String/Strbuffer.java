@@ -5,10 +5,13 @@ public class Strbuffer {
 	public static void main(String[] args) {
 		String s="hello";
 		s=s+" i ";
+		
 		System.out.println(s);
 		s=s+"am ";
+		
 		System.out.println(s);
 		s=" Neha";
+		
 	   StringBuffer s1=new StringBuffer("hello");
 	   s1.append(" I ");
 	   s1.append("Am ");
