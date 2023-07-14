@@ -2,7 +2,6 @@ package pracprog;
 import java.util.Scanner;
 public class Lp 
 {
-
 public static void main(String[] args)
 {
 Scanner sc=new Scanner(System.in);
