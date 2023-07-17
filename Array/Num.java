@@ -1,6 +1,6 @@
 
-public class Num {
-	
+public class Num
+{
 	public static void main(String[] args)
 	{
      int a[]=new int [] {2,3,4,5,6,9};
