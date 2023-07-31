@@ -11,8 +11,7 @@ breadth=b;
 }
 int Area()
 {
-	 area=length*breadth;
-	return area;
+area=length*breadth;
+return area;
 }
-
 }
