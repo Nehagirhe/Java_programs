@@ -6,7 +6,7 @@ public class Que14 {
 
 	public static void main(String[] args) 
 	{
-		LinkedList<String>a=new LinkedList<String>();
+	LinkedList<String>a=new LinkedList<String>();
 	    a.add("Red");
 	    a.add("Green");
 	    a.add(2,"Black");
