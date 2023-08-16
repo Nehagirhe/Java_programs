@@ -1,1 +1,19 @@
+package map;
+import java.util.HashMap;
+import java.util.Map;
+public class Example1 {
+
+	public static void main(String[] args) {
+    HashMap<Integer,String>h=new HashMap<Integer,String>();
+   h.put(1, "Mango");
+   h.put(2, "Apple");
+   h.put(3, "Banana");
+   h.put(4, "Grapes");
+System.out.println("Iterting HashMap...");
+for(Map.Entry m:h.entrySet())
+{
+  System.out.println(m.getKey()+" "+m.getValue());
+}
+}
+}
 
