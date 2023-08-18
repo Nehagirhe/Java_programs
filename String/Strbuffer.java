@@ -15,8 +15,10 @@ public class Strbuffer {
 	   StringBuffer s1=new StringBuffer("hello");
 	   s1.append(" I ");
 	   s1.append("Am ");
+		
 	   s1.append("Neha ");
 	   System.out.println(s1);
+		
 	   System.out.println(s1.delete(0,5));
 	   System.out.println(s1.insert(0, "Hello"));;
 		
