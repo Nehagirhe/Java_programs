@@ -1,4 +1,4 @@
-package neha;
+ofpackage neha;
 
 public class Strbuffer {
 
@@ -20,8 +20,8 @@ public class Strbuffer {
 	   System.out.println(s1);
 		
 	   System.out.println(s1.delete(0,5));
-	   System.out.println(s1.insert(0, "Hello"));;
-		
+	   System.out.println(s1.insert(0, "Hello"));
+
 
 	}
 
