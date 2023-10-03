@@ -10,6 +10,7 @@ public class Prog_8 {
 	    t.put("c2", "Green");
 	    t.put("c3", "Black");
 	    t.put("c4", "White");
+	    t.put("c5", "Orange");
 	    System.out.println("Original TreeMap Content: "+t);
 	    System.out.println("Greatest Key: "+t.firstEntry());
 	    System.out.println("Least Key: "+t.lastEntry());
