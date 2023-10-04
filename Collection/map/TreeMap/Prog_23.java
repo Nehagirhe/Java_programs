@@ -12,6 +12,7 @@ public class Prog_23 {
 	t.put(50, "Pink");
 	System.out.println("Sample Output: ");
 	System.out.println("\nOriginal TreeMap Content: "+t);
+    System.out.println("Keys Greater Than Or Equal To 20: "+t.ceilingEntry(30));
     System.out.println("Keys Greater Than Or Equal To 20: "+t.ceilingEntry(20));
     System.out.println("Keys Greater Than Or Equal To 40: "+t.ceilingEntry(40));
     System.out.println("Keys Greater Than Or Equal To 50: "+t.ceilingEntry(50));
