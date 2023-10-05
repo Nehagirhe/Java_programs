@@ -9,6 +9,8 @@ public class ColorPos {
 	    a.add("Green");
 		a.add("Black");
 		a.add("Pink");
+		a.add("Blue");
+	        a.add("Indigo");
 		a.add("Orange");
 		System.out.println("Original linked list: "+a);
         
