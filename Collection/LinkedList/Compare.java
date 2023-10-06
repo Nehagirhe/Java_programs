@@ -11,6 +11,7 @@ public class Compare {
 		a.add("Black");
 		a.add("White");
 		a.add("Pink");
+		a.add("orange");
 		System.out.println("List1: "+a);
 		ArrayList<String>b=new ArrayList<String>();
 		b.add("Red");
