@@ -10,6 +10,7 @@ public class Clone {
 	    a.add("Green");
 		a.add("Black");
 		a.add("White");
+		a.add("Blue");
 		a.add("Pink");
 		System.out.println("First linked list: "+a);
 		System.out.println("Cloned linked list: "+a.clone());
