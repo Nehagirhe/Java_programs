@@ -13,7 +13,12 @@ public class ColorPos {
 	        a.add("Indigo");
 		a.add("Orange");
 		System.out.println("Original linked list: "+a);
-        
+		a.add("voilet");
+		a.add("yellow");
+		a.add("golden");
+	        a.add("Silver");
+		a.add("grey");
+                System.out.println("linked list: "+a);
        
 	}
 }
