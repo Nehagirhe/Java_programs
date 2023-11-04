@@ -10,7 +10,8 @@ public class Prog_13 {
 		t.put(20, "Green");
 		t.put(40, "Black");
 		t.put(50, "White");
-		t.put(60, "Pink");
+		t.put(60, "Yellow");
+		t.put(70, "Pink");
 		System.out.println("Original TreMap Content: "+t);
 		System.out.println("Checking The Entry For 10:");
 		System.out.println("Key(s): "+t.higherEntry(10));
