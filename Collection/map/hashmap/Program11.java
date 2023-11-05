@@ -9,6 +9,8 @@ public class Program11 {
 	h.put(3 ,"Black");
 	h.put(4 ,"White");
 	h.put(5, "Blue");
+	h.put(6, "Yellow");
+	h.put(7, "Purple");
 	System.out.println("Key Set Values Are: "+h.keySet());
 
 	}
