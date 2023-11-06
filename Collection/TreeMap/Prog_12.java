@@ -9,7 +9,12 @@ public class Prog_12 {
 		t.put(10, "Red");
 		t.put(20, "Green");
 		t.put(40, "Black");
-		t.put(50, "White");
+		t.put(60, "yellow");
+		t.put(80, "orange");
+		out.print("<a href='profile?pId=1'>1</a>&emsp;");
+		out.print("<a href='profile?pId=2'>2</a>&emsp; ");
+		out.print("<a href='profile?pId=3'>3</a> ");
+		
 		t.put(60, "Pink");
 		System.out.println("Original TreMap Content: "+t);
 		System.out.println("Checking The Entry For 10:");
