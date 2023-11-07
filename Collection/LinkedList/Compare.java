@@ -17,6 +17,7 @@ public class Compare {
 		b.add("Red");
 		b.add("Green");
 		b.add("Black");
+		b.add("yellow");
 		b.add("Pink");
 		System.out.println("List2: "+b);
 		System.out.println("Output :");
