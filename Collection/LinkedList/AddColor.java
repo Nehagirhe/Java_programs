@@ -10,6 +10,7 @@ public class AddColor {
 		a.add("Black");
 		a.add("White");
 		a.add("Pink");
+		a.addd("Yellow");
 		System.out.println("Original linked list: ");
 		System.out.println(a);
         a.add(1,"Yellow");
