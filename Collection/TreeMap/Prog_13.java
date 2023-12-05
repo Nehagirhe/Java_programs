@@ -19,6 +19,8 @@ public class Prog_13 {
 		System.out.println("Key(s): "+t.higherEntry(30));
 		System.out.println("Checking The Entry For 70:");
 		System.out.println("Key(s): "+t.higherEntry(70));
+		System.out.println("Checking The Entry For 90:");
+		System.out.println("Key(s): "+t.higherEntry(90));
 	}
 
 }
