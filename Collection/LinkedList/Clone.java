@@ -8,6 +8,7 @@ public class Clone {
 		LinkedList<String>a=new LinkedList<String>();
 	    a.add("Red");
 	    a.add("Green");
+		a.add("indigo");
 		a.add("Black");
 		a.add("White");
 		a.add("Blue");
